@@ -1,0 +1,66 @@
+/* Typography -------------------------- */
+
+.editor-block-list__layout,
+.entry-content {
+  
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  color: #53626A;
+
+  > * {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  > .alignwide {
+    width: calc(100% - 60px);
+    max-width: 1200px;
+  }
+
+  > .alignfull {
+    max-width: 100%;
+  }
+
+  .alignleft, img.alignleft {
+
+    float: left;
+  }
+
+  .alignright, img.alignright {
+    float: right;
+  }
+
+  .aligncenter, img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+  }
+  .aligncenter > img {
+    height: auto;
+  }
+
+  p {
+    line-height: 1.75em;
+    font-weight: 400;
+  }
+
+}
+
+
+
+
+.editor-block-list__layout a:link,
+.entry-content a:link {
+  color: #1986C7;
+}
+
+.editor-block-list__layout,
+.entry-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #313D44;
+  }
+}
+

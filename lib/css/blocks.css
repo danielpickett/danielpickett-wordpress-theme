@@ -1,0 +1,54 @@
+/* Typography -------------------------- */
+.editor-block-list__layout,
+.entry-content {
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  color: #53626A; }
+  .editor-block-list__layout > *,
+  .entry-content > * {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px; }
+  .editor-block-list__layout > .alignwide,
+  .entry-content > .alignwide {
+    width: calc(100% - 60px);
+    max-width: 1200px; }
+  .editor-block-list__layout > .alignfull,
+  .entry-content > .alignfull {
+    max-width: 100%; }
+  .editor-block-list__layout .alignleft, .editor-block-list__layout img.alignleft,
+  .entry-content .alignleft,
+  .entry-content img.alignleft {
+    float: left; }
+  .editor-block-list__layout .alignright, .editor-block-list__layout img.alignright,
+  .entry-content .alignright,
+  .entry-content img.alignright {
+    float: right; }
+  .editor-block-list__layout .aligncenter, .editor-block-list__layout img.aligncenter,
+  .entry-content .aligncenter,
+  .entry-content img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    clear: both; }
+  .editor-block-list__layout .aligncenter > img,
+  .entry-content .aligncenter > img {
+    height: auto; }
+  .editor-block-list__layout p,
+  .entry-content p {
+    line-height: 1.75em;
+    font-weight: 400; }
+
+.editor-block-list__layout a:link,
+.entry-content a:link {
+  color: #1986C7; }
+
+.editor-block-list__layout h1, .editor-block-list__layout h2, .editor-block-list__layout h3, .editor-block-list__layout h4, .editor-block-list__layout h5, .editor-block-list__layout h6,
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  color: #313D44; }

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+/* Header */
+header#dp-site-header {
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,.25);
+  display: flex;
+}
+
+header#dp-site-header .custom-logo-link {
+  display: block;
+  margin-right: auto;
+  max-width: 180px;
+  height: auto;
+}
+
+header#dp-site-header ul#main-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header#dp-site-header ul#main-nav li {
+  list-style: none;
+  margin-left: 1em;
+}
